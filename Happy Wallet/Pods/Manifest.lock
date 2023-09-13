@@ -1,0 +1,36 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.6)
+  - lottie-ios (3.2.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SJSwiftSideMenuController (2.0)
+  - SwiftMessages (9.0.3):
+    - SwiftMessages/App (= 9.0.3)
+  - SwiftMessages/App (9.0.3)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - SDWebImage
+  - SJSwiftSideMenuController
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - SDWebImage
+    - SJSwiftSideMenuController
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SJSwiftSideMenuController: 8c81fad11d3c7d7c00e75f6ac6c76382cc283891
+  SwiftMessages: 077f19126c24033fe24042237ecc20261adb46e4
+
+PODFILE CHECKSUM: 6c7da0fe55dcf7617dc60d0d5401fe8b9e83852e
+
+COCOAPODS: 1.10.1

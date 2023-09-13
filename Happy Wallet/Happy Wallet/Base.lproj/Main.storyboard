@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5G4-Bl-CRr">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Z5m-zm-5Mk">
+            <objects>
+                <viewController id="5G4-Bl-CRr" customClass="ViewController" customModule="Happy_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vak-Ir-uFb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="app_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Wfx-DH-FT9">
+                                <rect key="frame" x="117" y="358" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="htM-0T-nGS"/>
+                                    <constraint firstAttribute="width" constant="180" id="poi-M6-2Ui"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oo6-1m-YIr"/>
+                        <color key="backgroundColor" name="AppGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="Wfx-DH-FT9" firstAttribute="centerX" secondItem="Vak-Ir-uFb" secondAttribute="centerX" id="aqP-aQ-Nxp"/>
+                            <constraint firstItem="Wfx-DH-FT9" firstAttribute="centerY" secondItem="Vak-Ir-uFb" secondAttribute="centerY" id="mTO-HK-A3p"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RF8-fk-oP1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ohn-3F-3BN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="71.651785714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="app_icon" width="60" height="60"/>
+        <namedColor name="AppGrayColor">
+            <color red="1" green="0.6470588235294118" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

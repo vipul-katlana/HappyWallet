@@ -1,0 +1,6 @@
+framework module Pods_Happy_Wallet {
+  umbrella header "Pods-Happy Wallet-umbrella.h"
+
+  export *
+  module * { export * }
+}
